@@ -274,7 +274,7 @@ def analyse(total_vector):
     #If set_up_csv false add just one column to the existing csv file
     set_up_csv = True
     if set_up_csv:
-        with open('vector.csv', 'w', newline='') as file:
+        with open('csv/vector.csv', 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["Category", "Ex_num", "value"])
             for i in range(len(total_vector)):
@@ -302,9 +302,9 @@ def analyse(total_vector):
                 else:
                     col.append(0)
 
-        csv_file = pd.read_csv('vector.csv')
+        csv_file = pd.read_csv('csv/vector.csv')
         csv_file['new2'] = col
-        csv_file.to_csv('vector.csv')
+        csv_file.to_csv('csv/vector.csv')
 
 
 """
