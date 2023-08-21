@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{mGreen}{rgb}{0,0.6,0}
+\definecolor{mGray}{rgb}{0.5,0.5,0.5}
+\definecolor{mPurple}{rgb}{0.58,0,0.82}
+\definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{CStyle}{ 
+    commentstyle=\color{mGreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{mGray},
+    stringstyle=\color{mPurple},
+    basicstyle=\footnotesize,
+    frameshape={YYY}{YY}{Y}{YYY},
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=C
+}
+\begin{document}
+\lstset{style=CStyle}
+
+
+\setcounter{section}{0}
+\section{Pointeurs}
+
+Soit l'état de la mémoire suivant:
+
+\begin{table}[!htbp]
+  \centering
+  \begin{tabular}{ll|l|}
+\cline{3-3}
+ & 360 & 340\\ \cline{3-3}
+ & 356 & 1\\ \cline{3-3}
+ & 352 & 336\\ \cline{3-3}
+ & 348 & 4\\ \cline{3-3}
+g y[0] & 344 & 4\\ \cline{3-3}
+ & 340 & 356\\ \cline{3-3}
+u  & 336 & 260\\ \cline{3-3}
+ & 332 & 1\\ \cline{3-3}
+ & 328 & 4\\ \cline{3-3}
+ &  & ...\\ \cline{3-3}
+ & 260 & 360\\ \cline{3-3}
+
+  \end{tabular}
+\end{table}
+
+La première colonne donne le nom des variables, la deuxième donne des adresses
+mémoires (nous les exprimerons dans ce challenge en \textbf{base 10}) et, enfin,
+la troisième donne la valeur stockée à cette adresse. De plus, voici comment ont été déclarées les variables (on suppose que les entiers (\texttt{int}) sont représentés sur 4
+octets\footnote{les \texttt{short} sur 2, les \texttt{long sur 8}}):
+
+\begin{lstlisting}
+int u, g, *ptr = &u, *q = &g;
+int y[] = {4,4,336,1};
+char *S = "informatique", *A = S + 3;
+\end{lstlisting}
+
+Dans ce Challenge, vous devez indiquer la valeur des \textbf{expressions}
+suivantes. Considérez qu'entre chaque expression, la mémoire est réinitialisée
+telle que présentée dans le schéma. Si un accès mémoire est demandé à une
+adresse hors de l'intervalle [260, 360], mentionnez l'erreur de segmentation par la valeur \texttt{SF}\footnote{Pour \texttt{S}egmentation \texttt{F}ault.}. Les adresses sont aussi représentées sur 4 octets. 
+
+\newpage
+
+\begin{enumerate}
+\item \texttt{\&g}
+\item \texttt{y}
+\item \texttt{\&*q}
+\item \texttt{* (int *)u}
+\item \texttt{\&* (int *)*ptr}
+\item \texttt{*** (int ***)u}
+\item \texttt{*** (int ***)*ptr}
+\item \texttt{++*\&g}
+\item \texttt{--*ptr}
+\item \texttt{(*ptr)++}
+\item \texttt{*++q}
+\item \texttt{(int*)u - g}
+\item \texttt{ptr - \&g}
+\item \texttt{(int*)u - ptr[g]}
+\item \texttt{(short)g + u}
+\item \texttt{y[g]}
+\item \texttt{*S}
+\item \texttt{S[S[10] - A[-2]]}
+\item \texttt{*(\&g - g)}
+\item \texttt{*(q - g)}
+
+
+\end{enumerate}
+\newpage
+
+
+\end{document}

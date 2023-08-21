@@ -1,0 +1,153 @@
+{
+  "0": {
+    "344": "Vous avez la bonne reponse"
+  },
+  "1": {
+    "344": "Vous avez la bonne reponse",
+    "4": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n"
+  },
+  "2": {
+    "344": "Vous avez la bonne reponse",
+    "4": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez oublie de deferencer une fois.\n"
+  },
+  "3": {
+    "360": "Vous avez la bonne reponse",
+    "340": "Vous avez probablement fait 1 erreur:\nVous avez deference trop de fois.\n",
+    "336": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nVous avez oublie de deferencer une fois.\n",
+    "260": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n"
+  },
+  "4": {
+    "360": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n",
+    "340": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\n",
+    "336": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "260": "Vous avez la bonne reponse"
+  },
+  "5": {
+    "360": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "356": "Vous avez la bonne reponse",
+    "340": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "260": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nVous avez oublie de deferencer une fois.\n",
+    "1": "Vous avez probablement fait 1 erreur:\nVous avez deference trop de fois.\n"
+  },
+  "6": {
+    "360": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "356": "Vous avez la bonne reponse",
+    "340": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "260": "Vous avez probablement fait 2 erreurs:\nVous avez oublie de deferencer une fois.\nVous avez oublie de deferencer une fois.\n",
+    "1": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n"
+  },
+  "7": {
+    "348": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "345": "Vous avez probablement fait 2 erreurs:\nVous avez oublie de deferencer une fois.\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 une adresse et non un entier.\n",
+    "344": "Vous avez probablement fait 2 erreurs:\nVous avez oublie de deferencer une fois.\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n",
+    "8": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 un entier et non une adresse.\n",
+    "5": "Vous avez la bonne reponse",
+    "4": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n"
+  },
+  "8": {
+    "360": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n",
+    "359": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 une adresse et non un entier.\n",
+    "356": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n",
+    "340": "Vous avez probablement fait 3 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n",
+    "339": "Vous avez probablement fait 3 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 une adresse et non un entier.\n",
+    "336": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\n",
+    "335": "Vous avez probablement fait 2 erreurs:\nVous avez oublie de deferencer une fois.\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 une adresse et non un entier.\n",
+    "332": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "260": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n",
+    "259": "Vous avez la bonne reponse",
+    "256": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 un entier et non une adresse.\n"
+  },
+  "9": {
+    "364": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nL'operation d'incrementation ou de decrementation est \u00e0 droite, le resultat de l'operation est la valeur de la variable avant l'operation.\n",
+    "360": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n",
+    "344": "Vous avez probablement fait 3 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\nL'operation d'incrementation ou de decrementation est \u00e0 droite, le resultat de l'operation est la valeur de la variable avant l'operation.\n",
+    "340": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez deference trop de fois.\n",
+    "336": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "261": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation est \u00e0 droite, le resultat de l'operation est la valeur de la variable avant l'operation.\n",
+    "260": "Vous avez la bonne reponse"
+  },
+  "10": {
+    "348": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "345": "Vous avez probablement fait 2 erreurs:\nL'operation d'incrementation ou de decrementation s'applique ici \u00e0 une adresse et non un entier.\nVous avez oublie de deferencer une fois.\n",
+    "344": "Vous avez probablement fait 1 erreur:\nL'operation d'incrementation ou de decrementation est \u00e0 gauche, le resultat de l'operation est la valeur de la variable apres l'operation.\n",
+    "5": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nVous avez oublie de deferencer une fois.\n",
+    "4": "Vous avez la bonne reponse"
+  },
+  "11": {
+    "332": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "320": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "256": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "252": "Vous avez probablement fait 1 erreur:\nAttention vous avez utilise la mauvaise taille d'adresse\n",
+    "244": "Vous avez la bonne reponse",
+    "228": "Vous avez probablement fait 1 erreur:\nAttention vous avez utilise la mauvaise taille d'adresse\n",
+    "128.0": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "83.0": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "64.0": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "32.0": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-21.0": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-84": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-1116": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "-1356": "Vous avez probablement fait 1 erreur:\nL'operation cast n'est pas un deferencement.\n"
+  },
+  "12": {
+    "-2.0": "Vous avez la bonne reponse",
+    "-8": "Vous avez probablement fait 1 erreur:\nVous avez oublie de diviser par sizeof(element pointe)\n",
+    "-696": "Vous avez probablement fait 1 erreur:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\n",
+    "-1040": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation de soustraction s'effectue sur deux adresses.\n"
+  },
+  "13": {
+    "0": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-9.5": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-19.0": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-38.0": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-76": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-412": "Vous avez probablement fait 1 erreur:\nAttention vous avez utilise la mauvaise taille d'adresse\n",
+    "-1008": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "-1024": "Vous avez probablement fait 1 erreur:\nL'operation cast n'est pas un deferencement.\n",
+    "-1084": "Vous avez la bonne reponse",
+    "-2428": "Vous avez probablement fait 1 erreur:\nAttention vous avez utilise la mauvaise taille d'adresse\n"
+  },
+  "14": {
+    "2084": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "1636": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "1044": "Vous avez probablement fait 2 erreurs:\nAttention vous avez utilise la mauvaise taille d'adresse\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "864": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "676": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "604": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "524": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "352": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "340": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n",
+    "276": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "264": "Vous avez la bonne reponse"
+  },
+  "15": {
+    "340": "Vous avez la bonne reponse"
+  },
+  "16": {
+    "i": "Vous avez la bonne reponse"
+  },
+  "17": {
+    "116": "Vous avez la bonne reponse"
+  },
+  "18": {
+    "356": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "340": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez oublie de deferencer une fois.\n",
+    "328": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "85.0": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez oublie de deferencer une fois.\n",
+    "4": "Vous avez la bonne reponse",
+    "1": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez deference trop de fois.\n",
+    "0.0": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-1032": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n"
+  },
+  "19": {
+    "356": "Vous avez probablement fait 1 erreur:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "340": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez oublie de deferencer une fois.\n",
+    "328": "Vous avez probablement fait 1 erreur:\nVous avez oublie de deferencer une fois.\n",
+    "85.0": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez oublie de deferencer une fois.\n",
+    "4": "Vous avez la bonne reponse",
+    "1": "Vous avez probablement fait 2 erreurs:\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \nVous avez deference trop de fois.\n",
+    "0.0": "Vous avez probablement fait 2 erreurs:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur une adresse et une valeur. \n",
+    "-12": "Vous avez probablement fait 2 erreurs:\nLa variable est un pointeur sur un entier. Sa valeur est donc l'adresse de la variable pointee et non de sa valeur.\nAvez-vous utilise la bonne formule ? L'operation d'addition ou de soustraction s'effectue sur deux entiers.\n",
+    "-1032": "Vous avez probablement fait 1 erreur:\nLa variable est de type entier. Sa valeur est donc celle stockee dans la memoire et non son adresse.\n"
+  }
+}

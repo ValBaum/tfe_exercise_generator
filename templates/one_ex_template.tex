@@ -1,0 +1,35 @@
+\setcounter{section}{0}
+\section{Pointeurs}
+
+Soit l'état de la mémoire suivant:
+
+\begin{table}[!htbp]
+  \centering
+  \begin{tabular}{ll|l|}
+%(memory)s
+  \end{tabular}
+\end{table}
+
+La première colonne donne le nom des variables, la deuxième donne des adresses
+mémoires (nous les exprimerons dans ce challenge en \textbf{base 10}) et, enfin,
+la troisième donne la valeur stockée à cette adresse. De plus, voici comment ont été déclarées les variables (on suppose que les entiers (\texttt{int}) sont représentés sur 4
+octets\footnote{les \texttt{short} sur 2, les \texttt{long sur 8}}):
+
+\begin{lstlisting}
+%(declaration)s
+\end{lstlisting}
+
+Dans ce Challenge, vous devez indiquer la valeur des \textbf{expressions}
+suivantes. Considérez qu'entre chaque expression, la mémoire est réinitialisée
+telle que présentée dans le schéma. Si un accès mémoire est demandé à une
+adresse hors de l'intervalle [%(minMemory)s, %(maxMemory)s], mentionnez l'erreur de segmentation par la valeur \texttt{SF}\footnote{Pour \texttt{S}egmentation \texttt{F}ault.}. Les adresses sont aussi représentées sur 4 octets. 
+
+\newpage
+
+\begin{enumerate}
+%(exercises)s
+
+\end{enumerate}
+\newpage
+
+
