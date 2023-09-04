@@ -1,0 +1,9 @@
+The first column corresponds to the exercise number, the second column to the
+category and the third column contains the different patterns used.
+
+To create a pattern dot cloud; simple print a dot when the pattern appears, where,
+The x-axis corresponds to the pattern number and the y-axis is the exercise numbers
+
+To create the distribution graphs I have counted all the occurrence of each pattern
+for each category and I have divided by the total number of expressions for the
+category
